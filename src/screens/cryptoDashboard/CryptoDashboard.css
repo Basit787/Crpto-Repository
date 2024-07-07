@@ -1,0 +1,66 @@
+.cryptoDashboard {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+.cryptoDashboardView {
+  margin-bottom: 80px;
+}
+.cryptoDashboard h1 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.cryptoDashboard p {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 40px;
+}
+
+.cryptoDashboard-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cryptoDashboard-card {
+  border-radius: 10px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 420px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cryptoDashboard-card p {
+  font-size: 24px;
+  text-align: left;
+  padding-left: 20px;
+  background-color: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(0.3125rem);
+}
+
+.cryptoDashboard-icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 300px;
+}
+
+.cryptoDashboard-icon img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.534);
+  padding: 4px;
+  margin: 8px;
+}

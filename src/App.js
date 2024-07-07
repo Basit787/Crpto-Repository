@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import MainBody from "./screens/body/MainBody";
+import FabButton from "./components/fabButton/FabButton";
+import Footer from "./components/footer/Footer";
+import CryptoDictionary from "./screens/cryptoDictionary/CryptoDictionary";
+import CryptoDashboard from "./screens/cryptoDashboard/CryptoDashboard";
+import EssentialAlphaButton from "./components/essentialButton/EssentialAlphaButton";
+import Navbar from "./components/navbar/Navbar";
+import Crypto from "./screens/crypto/Crypto";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <>
+        <Navbar />
+        <MainBody />
+        <Crypto />
+        <CryptoDashboard />
+        <CryptoDictionary />
+        <EssentialAlphaButton />
+        <hr className="separator" />
+      </>
+      <Footer />
+      <FabButton />
+    </>
   );
-}
+};
 
 export default App;

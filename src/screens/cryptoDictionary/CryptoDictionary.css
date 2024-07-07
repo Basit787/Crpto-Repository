@@ -1,0 +1,60 @@
+.crypto-dictionary-container {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  background-color: #000; /* Set background to black to match the dark theme */
+}
+
+.crypto-dictionary-title {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.crypto-dictionary-subtitle {
+  font-size: 1.25rem;
+  margin: 10px 0 30px;
+}
+
+.crypto-dictionary-image-container {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+}
+
+.crypto-dictionary-image {
+  width: 100%;
+  border-radius: 15px; /* Rounded corners for the image */
+}
+
+.crypto-dictionary-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.crypto-dictionary-icon {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 20px;
+  background-color: grey;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crypto-dictionary-text h2 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 400;
+  color: #fff9;
+}
+
+.crypto-dictionary-text p {
+  margin: 5px 0 0;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.4);
+}

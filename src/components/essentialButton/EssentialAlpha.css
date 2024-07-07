@@ -1,0 +1,41 @@
+.EssentialAlphaButton {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.EssentialAlphaButton-container {
+  background-color: rgba(202, 202, 202, 0.103);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  width: 400px;
+}
+
+.emptyDiv {
+  margin-top: 100px;
+}
+
+.toggle-switch {
+  display: flex;
+  border-radius: 25px;
+  overflow: auto;
+  cursor: pointer;
+}
+
+.toggle-option {
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+  color: #e5e5e5;
+  width: 100px;
+}
+
+.toggle-option.active {
+  background: #44444428;
+  backdrop-filter: blur(80px);
+
+  color: white;
+  border-radius: 20px;
+}
