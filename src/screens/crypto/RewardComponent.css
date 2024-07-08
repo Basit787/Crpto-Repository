@@ -1,0 +1,108 @@
+.rewards-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.rewarsMainComponent {
+  width: 18.75rem;
+  margin: 1.25rem;
+  background-color: #1e1e1e;
+  border-radius: 0.625rem;
+}
+.rewardsComponent-heading {
+  margin: 1.25rem;
+}
+.reward-container {
+  color: white;
+  background-color: #373737d3;
+  padding: 1.25rem;
+  border-radius: 0.625rem;
+  max-width: 25rem;
+  margin: auto;
+  font-size: 1rem;
+  font-weight: 200;
+  margin: 0.625rem;
+}
+
+.countdown {
+  display: flex;
+  flex-direction: row;
+  gap: 0.625rem;
+}
+
+.rewardsComponent-moreInfo {
+  background-color: #1e1e1e;
+  height: 31.25rem;
+  width: 18.75rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.625rem;
+}
+
+.rewardsComponent-moreInfoImg {
+  margin-top: 0.625rem;
+  height: 17.5rem;
+  width: 17.5rem;
+  background-image: url("../../assets/reawardscomponent.gif");
+  background-size: contain;
+  border-radius: 0.625rem;
+}
+
+.extramoreInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.625rem;
+}
+
+.extramoreInfo p {
+  font-size: 0.625rem;
+}
+
+.discordtext {
+  display: flex;
+  gap: 0.625rem;
+}
+
+.rewards-separator {
+  border: 0.0625rem dashed grey;
+  width: 12.5rem;
+}
+
+.rewardcompletedseparator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.625rem;
+}
+
+.rewardcomponent-completedicon {
+  color: white;
+  font-size: 0.5rem;
+  font-weight: 200;
+  border: 0.0625rem solid white;
+  border-radius: 50%;
+  height: 0.625rem;
+  width: 0.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rewardcomponentclaim-button {
+  background-color: gray;
+  color: white;
+  padding: 0.625rem 1.25rem;
+  border: none;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+  margin: 1.25rem;
+  width: 90%;
+}
+
+.rewardcomponentclaim-button:hover {
+  background-color: rgba(128, 128, 128, 0.668);
+}

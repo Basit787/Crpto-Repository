@@ -1,0 +1,22 @@
+.crypto-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.crypto-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+  .crypto-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .crypto-section.next{
+   flex-direction: column-reverse;
+  }
+}

@@ -1,66 +1,66 @@
-.cryptoDashboard {
-  text-align: center;
-  color: white;
-  padding: 20px;
-}
-.cryptoDashboardView {
-  margin-bottom: 80px;
-}
-.cryptoDashboard h1 {
-  font-size: 24px;
-  font-weight: 400;
-  margin: 10px;
-}
+  .cryptoDashboard {
+    text-align: center;
+    color: white;
+    padding: 1.25rem;
+  }
+  .cryptoDashboardView {
+    margin-bottom: 5rem;
+  }
+  .cryptoDashboard h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0.625rem;
+  }
 
-.cryptoDashboard p {
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.4);
-  margin-bottom: 40px;
-}
+  .cryptoDashboard p {
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 2.5rem;
+  }
 
-.cryptoDashboard-card-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
+  .cryptoDashboard-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+  }
 
-.cryptoDashboard-card {
-  border-radius: 10px;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 420px;
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+  .cryptoDashboard-card {
+    border-radius: 0.625rem;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 26.25rem;
+    width: 18.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
-.cryptoDashboard-card p {
-  font-size: 24px;
-  text-align: left;
-  padding-left: 20px;
-  background-color: rgba(255, 255, 255, 0.18);
-  backdrop-filter: blur(0.3125rem);
-}
+  .cryptoDashboard-card p {
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 1.25rem;
+    background-color: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(5px);
+  }
 
-.cryptoDashboard-icon {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 300px;
-}
+  .cryptoDashboard-icon {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 18.75rem;
+  }
 
-.cryptoDashboard-icon img {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(128, 128, 128, 0.534);
-  padding: 4px;
-  margin: 8px;
-}
+  .cryptoDashboard-icon img {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.534);
+    padding: 0.25rem;
+    margin: 0.5rem;
+  }

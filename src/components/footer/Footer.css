@@ -1,29 +1,29 @@
 .Footer {
   color: #fff;
   font-family: Arial, sans-serif;
-  margin: 40px 150px;
+  margin: 2.5rem 9.375rem;
 }
 
 .Footer-content {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .Footer-logo {
-  width: 300px;
+  width: 18.75rem;
 }
 
 .Footer-logo h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .Footer-logo p {
-  margin: 10px 0 0;
-  font-size: 14px;
+  margin: 0.625rem 0 0;
+  font-size: 0.875rem;
   color: #7d7d7d;
 }
 
@@ -32,12 +32,12 @@
 }
 
 .Footer-column {
-  margin: 0 20px;
+  margin: 0 1.25rem;
 }
 
 .Footer-column h3 {
-  font-size: 16px;
-  margin-bottom: 10px;
+  font-size: 1rem;
+  margin-bottom: 0.625rem;
 }
 
 .Footer-column ul {
@@ -46,13 +46,13 @@
 }
 
 .Footer-column li {
-  margin-bottom: 5px;
+  margin-bottom: 0.3125rem;
 }
 
 .Footer-column a {
   color: #7d7d7d;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .Footer-column a:hover {
@@ -60,11 +60,11 @@
 }
 
 .Footer-disclaimer p {
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #7d7d7d;
-  margin-bottom: 20px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 1.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .Footer-disclaimer p span {
@@ -75,9 +75,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: white;
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 .Footer-created-by a {
@@ -87,13 +87,6 @@
 
 .Footer-created-by a:hover {
   text-decoration: underline;
-}
-
-.Footer-social-icons a {
-  /* pad: 0 10px;
-  background-color: #aaaaaa38;
-  height: 40px;
-  width: 40px; */
 }
 
 .Footer-social-icons {
@@ -107,4 +100,45 @@
 
 .another {
   color: rgba(98, 98, 98, 0.599);
+}
+
+@media only screen and (max-width: 37.5rem) {
+  .Footer {
+    margin: 0;
+  }
+  .Footer-logo h2 {
+    margin: 0.625rem;
+  }
+  .Footer-logo p {
+    margin: 0.625rem;
+  }
+  .Footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0.625rem;
+  }
+
+  .Footer-column {
+    margin: 0;
+    width: 50%;
+    margin-bottom: 1.25rem;
+  }
+
+  .Footer-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.25rem;
+  }
+  .Footer-disclaimer {
+    margin: 0.625rem;
+  }
+
+  .Footer-created-by {
+    flex-direction: column;
+    gap: 1.25rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0.625rem;
+  }
 }

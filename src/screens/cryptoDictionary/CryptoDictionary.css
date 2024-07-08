@@ -1,18 +1,18 @@
 .crypto-dictionary-container {
   text-align: center;
   color: white;
-  padding: 20px;
+  padding: 1.25rem;
   background-color: #000; /* Set background to black to match the dark theme */
 }
 
 .crypto-dictionary-title {
-  font-size: 2.5rem;
+  font-size: 40px;
   margin: 0;
 }
 
 .crypto-dictionary-subtitle {
-  font-size: 1.25rem;
-  margin: 10px 0 30px;
+  font-size: 20px;
+  margin: 0.625rem 0 1.875rem;
 }
 
 .crypto-dictionary-image-container {
@@ -23,24 +23,24 @@
 
 .crypto-dictionary-image {
   width: 100%;
-  border-radius: 15px; /* Rounded corners for the image */
+  border-radius: 0.9375rem; /* Rounded corners for the image */
 }
 
 .crypto-dictionary-text {
   position: absolute;
-  bottom: 20px;
-  left: 20px;
+  bottom: 1.25rem;
+  left: 1.25rem;
 }
 
 .crypto-dictionary-icon {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
-  font-size: 20px;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  font-size: 1.25rem;
   background-color: grey;
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
+  height: 3.125rem;
+  width: 3.125rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,13 +48,21 @@
 
 .crypto-dictionary-text h2 {
   margin: 0;
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-weight: 400;
   color: #fff9;
 }
 
 .crypto-dictionary-text p {
-  margin: 5px 0 0;
-  font-size: 1rem;
+  margin: 0.3125rem 0 0;
+  font-size: 16px;
   color: rgba(255, 255, 255, 0.4);
+}
+
+@media only screen and (max-width: 600px) {
+  .crypto-dictionary-icon {
+  font-size: 15px;
+  height: 30px;
+  width: 30px;
+}
 }

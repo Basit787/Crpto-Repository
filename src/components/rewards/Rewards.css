@@ -1,0 +1,71 @@
+.rewards-container {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 20px;
+}
+
+.rewards-completed {
+  height: 50px;
+  width: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rewards-img {
+  height: 150px;
+  width: 140px;
+  border-radius: 20px;
+  padding: 8px;
+  border: 1px solid white;
+}
+
+.rewards-textData h2 {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.rewards-textData p {
+  font-size: 14px;
+  font-weight: 200;
+  color: rgba(161, 160, 160, 0.71);
+}
+
+.rewards-claimBtn {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  width: 160px;
+  padding: 10px 0;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  cursor: not-allowed !important;
+}
+
+.rewards-lock-div {
+  display: flex;
+  justify-content: flex-end;
+  transform: translate(0, -20px);
+}
+
+.rewards-lock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid white;
+  height: 30px;
+  width: 30px;
+  background-color: gray;
+}
